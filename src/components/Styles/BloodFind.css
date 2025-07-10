@@ -1,0 +1,131 @@
+/* Container to center everything */
+.bloodFind {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+    width: 100vw;
+    max-width: 100%;
+    /* padding: 2em; */
+    background-color: #e1dadafc;
+}
+
+/* Styled form container */
+.bloodFindMain {
+  max-width: 600px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  padding: 2em;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+/* Heading style */
+.bloodFindMain h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  -webkit-text-stroke: 1px rgba(201, 9, 9, 0.63);
+}
+
+/* Label + Input container */
+.bloodFindInput {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+/* Input labels */
+.bloodFindInput label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Dropdowns */
+.bloodFindInput select {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0.8em;
+  font-size: 1em;
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  transition: border-color 0.3s;
+}
+
+.bloodFindInput select:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+
+/* Button container */
+.bloodFindButton {
+  display: flex;
+  justify-content: center;
+}
+
+/* Submit button */
+.bloodFindButton button {
+  padding: 0.8em 2em;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #fff;
+  background-color: #c30000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.bloodFindButton button:hover {
+  background-color: #b30000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .bloodFindMain {
+    padding: 1.5em;
+  }
+
+  .bloodFindMain h1 {
+    font-size: 1.5rem;
+  }
+
+  .bloodFindInput label {
+    font-size: 0.9rem;
+  }
+
+  .bloodFindInput select {
+    font-size: 0.9rem;
+  }
+
+  .bloodFindButton button {
+    font-size: 1rem;
+    padding: 0.7em 1.5em;
+  }
+}
+
+@media (max-width: 480px) {
+  .bloodFindMain {
+    padding: 1em;
+  }
+
+  .bloodFindInput label {
+    font-size: 1.1rem;
+  }
+
+  .bloodFindInput select {
+    font-size: 1rem;
+  }
+
+  .bloodFindButton button {
+    font-size: 1rem;
+  }
+}
