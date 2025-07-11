@@ -22,7 +22,6 @@
 - 📄 **Donor List Display** with Name, Age, Blood Group, Contact, District
 - 📊 **Live Donor Count** (fetched from Firestore)
 - 📱 **Responsive UI** with a hamburger menu on smaller screens
-- 🔁 **Global State Management** via React Context API (User & Donors)
 
 ---
 
