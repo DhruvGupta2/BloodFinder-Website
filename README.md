@@ -37,17 +37,18 @@
 
 ## 🏗️ Project Structure
 
+```
 📦 bloodfind
 ├── components/
-│ ├── Login.jsx
-│ ├── Signup.jsx
-│ ├── Registration.jsx
-│ ├── BloodFind.jsx
-│ ├── BloodDonors.jsx
-│ ├── Homepage.jsx
-│ ├── Navbar.jsx
+│   ├── Login.jsx
+│   ├── Signup.jsx
+│   ├── Registration.jsx
+│   ├── BloodFind.jsx
+│   ├── BloodDonors.jsx
+│   ├── Homepage.jsx
+│   ├── Navbar.jsx
 ├── styles/
-│ └── *.css
+│   └── *.css
 ├── Firebase.js
 ├── auth.js
 ├── users.js
@@ -56,4 +57,5 @@
 ├── main.jsx
 ├── DonorContext.js
 ├── UserContext.js
+```
 
