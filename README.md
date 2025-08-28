@@ -6,7 +6,7 @@
 
 ## 📌 Project Overview
 
-**BloodFind** is a modern web application built with **React (Vite)**, **Firebase (Auth + Firestore)**, and **Node.js**, designed to:
+**BloodFind** is a modern web application built with **React (Vite)**, **Firebase (Auth + Firestore)**, designed to:
 
 - 🧑‍🤝‍🧑 Register users as voluntary blood donors  
 - 🔍 Search for blood donors based on **blood group**, **state**, and **district**  
